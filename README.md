@@ -3,14 +3,14 @@ Repository for my game that uses light sensor triangulation data to control the 
 
 Game mechanics itself was made using python and the turtle library. An Ardunio was in charge of IO for the photoresistors.
 There are three photoresistors in the following configuration:
-*
+x
 |
 |
 |
 |
-*------------*
+x------------x
 
-Where the * represents a photoresistor. These photoresistors were connected to a breadboard, which then connected them to the Arduino.
+Where the 'x' represents a photoresistor. These photoresistors were connected to a breadboard, which then connected them to the Arduino.
 The spacing and location for the photoresistors was chosen to mimic the video game arena, which is rectangular, as closely as possible.
 
 To play a game, a light is shined on a table that houses the photoresistor.
